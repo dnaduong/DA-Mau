@@ -1,0 +1,609 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+    background-color: lightcyan;
+}
+
+.boxcenter {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+.mr {
+    margin-right: 2%;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.demo {
+    background-color: rgb(167, 202, 255);
+    min-height: 100px;
+}
+strong{
+    text-transform: uppercase;
+}
+.header {
+    background-color: rgb(151, 200, 255);
+    border: 1px forestgreen solid;
+    color: blue;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: rgb(216, 226, 251);
+    border: 1px rgb(0, 0, 0) solid;
+    font-size: 0.8vw;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* # */
+
+/* Add a blue text color to links */
+
+a {
+    color: orange;
+}
+
+.top-footer {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title-newsletter {
+    flex-basis: auto;
+}
+
+.form-newsletter {
+    height: 80px;
+    font-weight: 500px;
+    padding: 0px 0px 10px 0px;
+    color: #494949;
+    max-width: 100%;
+    width: 60%;
+}
+
+.area-phone-contact {
+    width: auto
+}
+
+.contact-form .input-group input {
+    height: 46px;
+}
+
+.contact-form .input-group input, .contact-form .input-group textarea {
+    border: 1px solid #e7e7e7;
+    box-shadow: none;
+    font-weight: 500;
+    padding: 0 20px;
+    background: #bed8f5;
+    color: #4c4c4c;
+    width: 65%;
+    border-radius: 5px;
+}
+
+
+.number-phone>span>a {
+    color: red;
+}
+
+/* # */
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column-1 {
+    width: 35%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-box {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.text-box {
+    width: 90%;
+    font-size: 15px;
+}
+
+.footer-column-2 {
+    width: 33%;
+}
+
+.footer-column-3 {
+    width: 32%;
+}
+
+.footer-content>a {
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-content>a:hover {
+    color: orange;
+}
+
+/* # */
+
+.footerbottom {
+    border-top: 5px double dimgrey;
+    line-height: 20px;
+    bottom: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+.header h1 {
+    margin: 20px;
+    font-size: 1.2vw;
+}
+
+.menu {
+    background-color: rgb(25, 70, 138);
+    color: rgb(255, 253, 249);
+    border-radius: 5px;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtitle {
+    color: rgb(243, 241, 241);
+    padding: 10px;
+    background-color: rgb(27, 58, 135);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.boxcontent {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 20px;
+    min-height: 180px;
+}
+
+.boxcontent2 {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    background-color: rgb(182, 209, 251);
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: rgb(173, 200, 247);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 250px;
+    border: 1px #EEE solid;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.boxsp .img {
+    text-align: center;
+}
+.boxsp p{
+    font-size: 25px;
+}
+.boxsp a{
+    color: orange;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.boxsp a:hover{
+    color: rgb(6, 4, 158);
+}
+
+.img img {
+    height: 200px;
+}
+
+.menu ul {
+    padding: 0px 15px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: white;
+    font-size: 0.7vw;
+}
+
+/* box tài khoản */
+
+.formtaikhoan {
+    line-height: 150%;
+}
+
+.formtaikhoan input[type="text"],.formtaikhoan input[type="email"], .formtaikhoan input[type="password"], .frmcontent input[type="text"] {
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtaikhoan input[type="checkbox"] {
+    border: 1px #CCC solid;
+}
+
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"], 
+.frmcontent input[type="submit"], 
+.frmcontent input[type="reset"], 
+.frmcontent input[type="button"],
+.searchbox input[type="submit"],
+.btnaddtocart input[type="submit"],
+.cart input[type="button"],
+.bill input[type="submit"],
+.bill input[type="button"]{
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+
+.formtaikhoan input[type="submit"]:hover,
+.formtaikhoan input[type="reset"]:hover, 
+.frmcontent input[type="submit"]:hover, 
+.frmcontent input[type="reset"]:hover, 
+.frmcontent input[type="button"]:hover,
+.searchbox input[type="submit"]:hover,
+.btnaddtocart input[type="submit"]:hover,
+.cart input[type="button"]:hover,
+.bill input[type="submit"]:hover,
+.bill input[type="button"]:hover{
+    background-color: rgb(153, 170, 250);
+}
+
+.formtaikhoan li a {
+    color: orange;
+    text-decoration: none;
+}
+
+.formtaikhoan li a:hover {
+    color: rgb(0, 45, 136);
+    text-decoration: underline;
+}
+
+/* menudoc */
+
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: rgb(156, 190, 246);
+    border-bottom: #ccc 1px solid;
+}
+
+.menudoc ul li a {
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: rgb(55, 141, 212);
+}
+
+.searchbox input[type="text"] {
+    width: 65%;
+    padding: 5px 10px;
+    background-color: rgb(142, 189, 247);
+    border: 1px #ccc solid;
+    border-radius: 5px;
+}
+
+.top10 img {
+    width: 20%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.top10 a {
+    color: rgb(139, 138, 138);
+    text-decoration: none;
+}
+
+.top10 a:hover {
+    color: rgb(33, 45, 177);
+    text-decoration: underline;
+}
+
+/* ADmin */
+
+.headeradmin {
+    background-color: rgb(141, 184, 249);
+    border: 1px #ccc solid;
+    color: rgb(135, 135, 135);
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.headeradmin h1 {
+    font-size: 2vw;
+}
+
+.frmtitle {
+    background-color: rgb(125, 193, 245);
+    border: 1px #ccc solid;
+    color: rgb(130, 130, 130);
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.frmcontent {
+    padding: 20px 0px;
+}
+
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th {
+    padding: 20px;
+    background-color: rgb(119, 183, 243);
+}
+
+/*
+.frmdsloai table th:nth-child(2) {
+    width: 30%;
+    background-color: #ccc;
+}
+
+.frmdsloai table th:nth-child(3) {
+    width: 40%;
+    background-color: #ccc;
+}
+
+.frmdsloai table th:nth-child(4) {
+    width: 20%;
+    background-color: #ccc;
+}*/
+
+.frmdsloai table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+
+
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart table th {
+    padding: 20px;
+    background-color: rgb(130, 173, 248);
+}
+
+.cart table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+
+.billgiohang table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.billgiohang table th {
+    padding: 20px;
+    background-color: rgb(135, 177, 240);
+}
+
+.billgiohang table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+
+.billform table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.billform table th {
+    padding: 20px;
+    background-color: rgb(135, 177, 240);
+}
+
+.billform table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+
+/*SLIDESHOW*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .6}
+    to {opacity: 1}
+}
+
+/*END SLIDESHOW*/
+
+/*CHITIETSP*/
+.spct{
+    text-align: center;
+}
+.spct img{
+    width: 40%;
+}
+.thongbao{
+    color: red;
+}
+
+
+button {
+    margin: 20px;
+    outline: none;
+}
+
+.custom-btn {
+    width: 150px;
+    height: 40px;
+    padding: 10px 25px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.btn {
+    z-index: 2;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid #000;
+}
+
+.btn:after {
+    position: absolute;
+    content: " ";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255, 255, 255, .5), inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    color: #fff;
+}
+
+.btn:hover:after {
+    -webkit-transform: scale(2) rotate(180deg);
+    transform: scale(2) rotate(180deg);
+    background: #000;
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5), -4px -4px 6px 0 rgba(116, 125, 136, .2), inset -4px -4px 6px 0 rgba(255, 255, 255, .5), inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+
+
